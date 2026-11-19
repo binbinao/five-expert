@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets & local config — never commit these
+.env
+.env.*
+*.token
+*.key
+*.pem
+cookies.txt
+.secrets
+
+# Logs & temp
+*.log
+tmp/
+.cache/
